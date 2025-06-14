@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cool Table</title>
+  <style>
+
+    .filler {
+      position: fixed; /* Fixed to cover the entire viewport */
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      z-index: 1;
+      background: linear-gradient(to right, dodgerblue 0%, deepskyblue 100%);
+    }
+    table {
+      position: absolute;
+      z-index: 2;
+      top: 50%;
+      right: 60%;
+      left: 70%;
+      transform: translate(-50%, -50%);
+      width: 6;
+      /* height: 400px; */ /* Remove or adjust this line */
+      background: #ffffff;
+      text-align: center;
+      border-collapse: collapse;
+      border-radius: 12px 12px 0 0;
+      overflow: hidden;
+      box-shadow: 0 2px 12px rgba(32, 32, 32, 0.3);
+    }
+    th, td {
+      padding: 12px 15px;
+    }
+    th {
+      background: #0057ff;
+      text-transform: uppercase;
+      color: #ffffff;
+      font-family: Roboto;
+    }
+    tr:hover {
+      background-color: #f1f1f1; /* Hover effect for rows */
+    }
+    tr:nth-child(odd){
+      background-color: #eeeeee;
+      font-family: Roboto,sans-serif;
+    }
+      
+    
+    @media (max-width: 600px) {
+      table {
+        width: 95%; /* More responsive on smaller screens */
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="filler"></div>
+  <table>
+    
+    <tr>
+      <th>#</th>
+      <th>NAME</th>
+      <th>ADMISSION NUMBER</th>
+      <th>SEX</th>
+      <th>LEVEL</th>
+      <th>FEES</th>
+    </tr>
+    
+    <tr>
+      <td>1</td>
+      <td>Abdurrahman Abdulazeez</td>
+      <td>20045681</td>
+      <td>Male</td>  
+      <td>300</td>
+      <td>#50,000</td>
+    </tr>
+    
+    <tr>
+      <td>2</td>
+      <td>Abubakar Yahaya Othman</td>
+      <td>20045682</td>
+      <td>Male</td>  
+      <td>300</td>
+      <td>#50,000</td>
+    </tr>
+    
+    <tr>
+      <td>3</td>
+      <td>Abdulmalik Abubakar</td>
+      <td>20045683</td>
+      <td>Male</td>  
+      <td>300</td>
+      <td>#50,000</td>
+    </tr>
+    
+    <tr>
+      <td>4</td>
+      <td>Tahir Muhammad Nasir</td>
+      <td>20045684</td>
+      <td>Male</td>  
+      <td>300</td>
+      <td>#50,000</td>
+    </tr>
+    
+    <tr>
+      <td>5</td>
+      <td>Mustapha Adamu Muhammad </td>
+      <td>20045685</td>
+      <td>Male</td>  
+      <td>300</td>
+      <td>#50,000</td>
+    </tr>
+    </body>
+    </html>

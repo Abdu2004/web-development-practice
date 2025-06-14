@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Anime-Inspired Portfolio</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Poppins', sans-serif;
+      background: linear-gradient(135deg, #1f1f1f, #444444);
+      color: #FFFFFF;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .nav-table {
+      width: 100%;
+      background: #333;
+      border-bottom: 3px solid #f09c00;
+      margin-bottom: 20px;
+      text-align: center;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .nav-table td a {
+      text-decoration: none;
+      padding: 15px 20px;
+      color: #f09c00;
+      font-weight: bold;
+      font-size: 18px;
+      transition: color 0.3s ease;
+    }
+
+    .nav-table td a:hover {
+      color: #FFD700;
+    }
+
+    .box {
+      width: 800px;
+      background: #222;
+      border-radius: 20px;
+      box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.6);
+      border: 3px solid #f09c00;
+      overflow: hidden;
+      padding: 20px;
+      margin-bottom: 30px;
+    }
+
+    h1, h2, h3 {
+      color: #FFD700;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+   }
+
+    p {
+      font-size: 16px;
+      line-height: 1.8;
+      color: #CCCCCC;
+    }
+
+    img {
+      width: 300px;
+      height: 300px;
+      display: block;
+      margin: 0 auto;
+      border: 5px solid #f09c00;
+      border-radius: 50%;
+      object-fit: cover;
+      transition: transform 0.5s ease, box-shadow 0.5s ease;
+    }
+
+    img:hover {
+      transform: scale(1.1);
+      box-shadow: 0px 0px 20px #f09c00;
+    }
+
+    .intro-content {
+      text-align: center;
+    }
+
+    .about-section {
+      text-align: center;
+    }
+
+    a {
+      color: #FFD700;
+    }
+
+    .anime-gallery {
+      margin-top: 30px;
+      text-align: center;
+    }
+
+    .anime-gallery h3 {
+      font-size: 20px;
+      margin-bottom: 15px;
+    }
+
+    .anime-images {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 20px;
+    }
+
+    .anime-item {
+      width: 180px;
+      text-align: center;
+    }
+
+    .anime-item img {
+      width: 100%;
+      border: 3px solid #f09c00;
+      border-radius: 10px;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .anime-item img:hover {
+      transform: scale(1.1);
+      box-shadow: 0px 0px 15px #FFD700;
+    }
+
+    .anime-item p {
+      margin-top: 10px;
+      color: #CCCCCC;
+      font-size: 14px;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+  <table class="nav-table">
+    <tr>
+      <td><a href="#home">Home</a></td>
+      <td><a href="#about">About</a></td>
+      <td><a href="#contact">Contact</a></td>
+    </tr>
+  </table>
+  
+  <div class="box">
+    <img src="IMG_20241124_135432469.jpeg" alt="Profile Image">
+    <section id="home" class="intro-section">
+      <div class="intro-content">
+        <h1>Welcome to My Portfolio</h1>
+        <p>Hi! I'm a passionate programmer, an anime enthusiast, and a lover of FPS games. Combining my love for anime and video games with programming, I create unique and engaging projects. Explore my work and discover how I bring creativity and code together!</p>
+      </div>
+    </section>
+  </div>
+  
+  <div class="box">
+    <section id="about" class="about-section">
+      <h2>About Me</h2>
+      <p>Hello! I'm a programmer who thrives on blending creativity and technical skills to build captivating projects. Python is my go-to programming language, as I enjoy its simplicity and versatility.</p>
+      <p>As a huge fan of anime, my favorite shows include *Jujutsu Kaisen*, *Black Clover*, *Wind Breaker*, and *Blue Exorcist*, among others. My love for FPS games further inspires my designs, often drawing parallels between the fast-paced gaming world and dynamic coding challenges.</p>
+      
+      <div class="anime-gallery">
+        <h3>My Favorite Anime</h3>
+        <div class="anime-images">
+          <div class="anime-item">
+            <img src="1730191767217.jpg" alt="Jujutsu Kaisen">
+            <p>Jujutsu Kaisen</p>
+          </div>
+          <div class="anime-item">
+            <img src="IMG-20230324-WA0348.jpg" alt="Black Clover">
+            <p>Black Clover</p>
+          </div>
+          <div class="anime-item">
+            <img src="647266.jpeg" alt="Wind Breaker">
+            <p>Wind Breaker</p>
+          </div>
+          <div class="anime-item">
+            <img src="peakpx.jpg" alt="Blue Exorcist">
+            <p>Blue Exorcist</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+</body>
+</html>

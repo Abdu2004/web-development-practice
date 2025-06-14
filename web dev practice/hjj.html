@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Solar System</title>
+    <style>
+        body {
+            margin: 0;
+            overflow: hidden;
+        }
+
+        .sun {
+            width: 100px;
+            height: 100px;
+            background-color: yellow;
+            border-radius: 50%;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            margin-top: -50px;
+            margin-left: -50px;
+            z-index: 2;
+        }
+
+        .planet {
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;
+            position: absolute;
+            transform-origin: center;
+            z-index: 1;
+        }
+
+        #mercury { background-color: #b9b9b9; }
+        #venus { background-color: #f7ac5d; }
+        #earth { background-color: #3273dc; }
+        #mars { background-color: #e53732; }
+        #jupiter { background-color: #d18d5a; width: 50px; height: 50px; }
+        #saturn { background-color: #f1bd5b; width: 45px; height: 45px; }
+        #uranus { background-color: #69a9db; }
+        #neptune { background-color: #4359c9; }
+
+    </style>
+</head>
+<body>
+    <div class="sun"></div>
+
+    <div class="planet" id="mercury"></div>
+    <div class="planet" id="venus"></div>
+    <div class="planet" id="earth"></div>
+    <div class="planet" id="mars"></div>
+    <div class="planet" id="jupiter"></div>
+    <div class="planet" id="saturn"></div>
+    <div class="planet" id="uranus"></div>
+    <div class="planet" id="neptune"></div>
+
+    <script>
+        const planets = document.querySelectorAll('.planet');
+        const sun = document.querySelector('.sun');
+        
+        let angle = 0;
+
+        function animatePlanets() {
+            angle += 0.5;
+            const radiusMultiplier = 2;
+
+            planets.forEach((planet, index) => {
+                const radius = 100 + index * 50 * radiusMultiplier;
+                const x = radius * Math.cos(angle * (Math.PI / 180));
+                const y = radius * Math.sin(angle * (Math.PI / 180));
+                planet.style.left = sun.offsetLeft + sun.clientWidth / 2 - planet.clientWidth / 2 + x + 'px';
+                planet.style.top = sun.offsetTop + sun.clientHeight / 2 - planet.clientHeight / 2 + y + 'px';
+            });
+
+            requestAnimationFrame(animatePlanets);
+        }
+
+        animatePlanets();
+    </script>
+
+
+
+</body>
+</html>

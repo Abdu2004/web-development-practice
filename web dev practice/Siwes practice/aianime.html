@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anime Ratings</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            text-align: left;
+            padding: 8px;
+        }
+        th {
+            background-color: #f4f4f4;
+        }
+        .nav-table {
+            background-color: #333;
+            color: white;
+        }
+        .nav-table td {
+            text-align: center;
+        }
+        .nav-table a {
+            color: white;
+            text-decoration: none;
+            display: block;
+            padding: 10px;
+        }
+        .nav-table a:hover {
+            background-color: #575757;
+        }
+        .content {
+            padding: 20px;
+        }
+        .rating-table {
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation Table -->
+    <table class="nav-table">
+        <tr>
+            <td><a href="#home">Home</a></td>
+            <td><a href="#about">About</a></td>
+            <td><a href="#contact">Contact</a></td>
+        </tr>
+    </table>
+
+    <div class="content">
+        <!-- Home Section -->
+        <section id="home">
+            <h1>Welcome to Anime Ratings</h1>
+            <p>Discover the ratings of popular anime shows.</p>
+        </section>
+
+        <!-- About Section -->
+        <section id="about">
+            <h2>About</h2>
+            <p>This website provides user ratings for the most popular anime series.</p>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact">
+            <h2>Contact</h2>
+            <p>For inquiries, please email us at <a href="mailto:info@anime.com">info@anime.com</a>.</p>
+        </section>
+
+        <!-- Anime Ratings Table -->
+        <table class="rating-table">
+            <caption><strong>Top Anime Ratings</strong></caption>
+            <tr>
+                <th>Anime</th>
+                <th>Genre</th>
+                <th>Rating</th>
+            </tr>
+            <tr>
+                <td>Attack on Titan</td>
+                <td>Action, Drama</td>
+                <td>9.5</td>
+            </tr>
+            <tr>
+                <td>Demon Slayer</td>
+                <td>Action, Fantasy</td>
+                <td>9.2</td>
+            </tr>
+            <tr>
+                <td>My Hero Academia</td>
+                <td>Action, Superhero</td>
+                <td>8.7</td>
+            </tr>
+            <tr>
+                <td>One Piece</td>
+                <td>Adventure, Fantasy</td>
+                <td>9.1</td>
+            </tr>
+            <tr>
+                <td>Death Note</td>
+                <td>Thriller, Mystery</td>
+                <td>9.0</td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>

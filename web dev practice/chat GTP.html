@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Matrix Rain Effect</title>
+	<style>
+		body {
+			background-color: black;
+		}
+
+		.matrix {
+			position: fixed;
+			top: 0;
+			left: 0;
+			right: 0;
+			bottom: 0;
+			display: flex;
+			flex-wrap: wrap;
+			align-items: center;
+			justify-content: center;
+			font-family: consolas;
+			font-size: 18px;
+			color: green;
+			text-shadow: 0px 0px 2px lightgreen;
+			overflow: hidden;
+		}
+
+		.code {
+			position: relative;
+			animation: fall 0.5s linear infinite;
+			opacity: 0;
+		}
+
+		@keyframes fall {
+			0% {
+				transform: translateY(-100%);
+				opacity: 1;
+			}
+			100% {
+				transform: translateY(100vh);
+				opacity: 1;
+			}
+		}
+	</style>
+</head>
+<body>
+	<div class="matrix">
+		<?php
+			$chars = array_merge(range('0', '9'), range('A', 'Z'), range('a', 'z'));
+			for ($i = 0; $i < 1000; $i++) {
+				$char = $chars[array_rand($chars)];
+				$delay = rand(0, 100) / 10;
+				echo "<span class='code' style='animation-delay: {$delay}s;'>{$char}</span>";
+			}
+		?>
+	</div>
+</body>
+</html>

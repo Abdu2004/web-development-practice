@@ -1,0 +1,283 @@
+Open sidebar
+
+Model responds to user
+
+￼￼
+
+Choose the correct answers and write only the answers ok
+
+Alright, I'll do my best! What's the question?
+
+￼￼
+
+Question 1 Multiple choice question What is a characteristic of the security onion analogy to visualizing defense-in-depth? All layers of the onion must be penetrated to gain access to vulnerable assets. The core or heart of the onion represents the firewall surround by protective layers. Each layer of the onion may reveal sensitive data that is not well secured. The outer skin of the onion represents hardened internet-facing systems. Question 2 Multiple choice question What type of activity occurs during the deployment phase of the asset lifecycle? Modifications and maintenance are performed on an asset. Upgrades, patches, and new licenses are applied to an asset. An asset is moved from inventory to in-use. An asset is added to the inventory of the organization. Question 3 Multiple choice question A user wants to store data where it is accessible from any computer with internet access. What storage technology meets the needs of the user? RAID cloud DAS NAS Question 4 Multiple choice question What technology can be used to protect the integrity of data in transit? mutual authentication IPsec tunnels hashing VPNs Question 5 Multiple choice question A company has set a policy that employees will be required to report any observed or suspected security issues. Which control type has the company implemented? incident controls physical controls administrative controls technical controls Question 6 Multiple choice question The IT team of an organization is updating the policy and procedures regarding recovery controls. What are three examples of recovery controls? (Choose three.) database shadowing monitoring procedures backup/restore operations server clustering intrusion detection system firewall deployment Question 7 Multiple choice question A network technician is charged with researching and collecting information regarding recent cybersecurity incidents. The technician decides to start with web sites that are opensource intelligence (OSINT). Which two statements describes OSINT types of web sites? (Choose two.) They usually require user registration and a small monthly fee. Their operations are in compliance with government regulations and policies. They collect information that is available to the general public. Most of them provide free access to their database. They are all run by government agencies. Question 8 Multiple choice question A cybersecurity consulting company is helping an organization to develop a cybersecurity policy to address a few operational issues and conditions that may require more detailed requirements and directions. Which type of cybersecurity policy are they developing? general cybersecurity management policy issue specific policy system specific policy master cybersecurity policy Question 9 Multiple choice question An administrator has been granted top security clearance at a company. One day the administrator finds that certain confidential documents cannot be accessed. The administrator asks the IT team to verify the level of clearance and receives the confirmation that top security clearance is still valid. What could be the reason that the administrator cannot access the respective documents? The PKI key of the user is invalid. The firewall rules are in conflict with the access rights of the user. The PKI certificate has been revoked. The principle of least privilege has been applied. Question 10 Multiple choice question The IT team in a company discovers that some employees are visiting newly established websites that are deemed inappropriate for conducting company business. What is the first action that the IT team should take in terms of the security policies? Update the incident handling policy immediately and get the employees to sign it. Update the Network Access Policy immediatley and get users to sign it. Update the existing Acceptable Use Policy immediately and get all users to sign it. Update the Remote Access Policy immediately and get users to sign it. Question 11 Multiple choice question The results of an audit on cybersecurity practices revealed that several company servers were not updated with the latest patches. The audit also revealed that several user accounts had escalated privileges and were allowed unauthorized network resource access. Which two security policies should be enforced to address these issues? (Choose two.) identification and authentication policy credential policy organizational policy network maintainance policy data policy Question 12 Multiple choice question A threat actor is using ping to discover hosts on a network. What type of attack is taking place? address spoofing DoS amplification ICMP Question 13 Multiple choice question What is the most compressed representation of the IPv6 address 2001:0db8:0000:abcd:0000:0000:0000:0001? 2001:db8:0:abcd::1 2001:db8::abcd:0:1 2001:0db8:abcd::0001 2001:0db8:abcd::1 2001:0db8:0000:abcd::1 Question 14 Multiple choice question A cyber security analyst is reviewing security alerts in Sguil. What are three pieces of information included in an alert to identify the device generating the alert? (Choose three.) Layer 4 segment sequence number source and destination Layer 4 port IP protocol number source and destination IP address host domain name source and destination MAC address Question 15 This question component requires you to select the matching option. When you have selected your answers select the submit button. Match the alert classification to the description. an alert which does not indicate an actual security incident there is no alert issued, however exploits are occurring undetected there is no alert issued and benign normal traffic is correctly ignored a verified alert indicating an actual security incident false positive false negative true negative true positive Question 16 Multiple choice question Refer to the exhibit. A router is configured with a zone-based policy firewall as shown. Which two statements describe how traffic between the LAN and external hosts will be processed? (Choose two.) All traffic sourced from the LAN zone that does not match the HTTP, HTTPS, or DNS protocols is dropped. Any traffic originating from the EXTERNAL zone is inspected and permitted into the LAN zone. All HTTP, HTTPS, and DNS responses originating from the EXTERNAL zone destined for the LAN zone are dropped. Traffic originating from the LAN zone that matches the HTTP, HTTPS, or DNS protocols is inspected and permitted. HTTP, HTTPS and DNS traffic destined for the router itself is not permitted by this policy. Question 17 Multiple choice question Refer to the exhibit. What type of traffic will the policy be applied to when the router is configured with the class-map and policy-map shown? class-map type inspect match-all INTERNAL-WEB  match protocol https  match access-group 101 ! policy-map type inspect SEC-INT-WEB  class type inspect INTERNAL-WEB  inspect ! access-list 101 permit tcp 192.168.10.0 0.0.0.255 host 192.168.100.10 only HTTPS traffic sourced from the internal LAN IP address range destined for the secure server all traffic from the internal LAN IP address range to the secure server using any TCP protocol only HTTPS traffic sourced from any internal or external source address destined for the secure server all traffic that is using either the HTTP protocol or is sourced from the internal LAN IP address range Question 18 Multiple choice question Which type ogy meets the needs of the user? RAID cloud DAS NAS Question 19 Multiple choice question Which of the following are commonly used port scanning applications? Select two correct answers Zenmap Port number Sequence number Nmap Question 20 Multiple choice question Which method of wireless authentication can take advantage of identity verification using a Radius server? Open WPA-Personal WEP WPA2-Enterprise Question 21 Multiple choice question Which of the following protocols use the Advanced Encryption Standard (AES)? Select two correct answers WPA TKIP WEP WPA2 EAP Question 22 Multiple choice question Because of a pandemic, a company decides to let employees work from home. What security technology should be implemented to ensure that data communications between the employees and the company's network remain confidential? MD5 SHA-1 AES SHA-3 Incomplete Question 23 Question 23 Multiple choice question What type of cipher encrypts plaintext one byte or one bit at a time? enigma elliptical hash stream block Question 24 Multiple choice question What is used by PKI entities to verify the validity of a digital certificate? SSL X.509 S/MIME CRL Question 25 Multiple choice question What are the two important components of a public key infrastructure (PKI) used in network security? (Choose two.) certificate authority symmetric encryption algorithms intrusion prevention system digital certificates pre-shared key generation Question 26 Multiple choice question A cyberanalyst is looking for an open source malware analysis tool that can run locally on the network. Which tool would meet the needs of the cyberanalyst? Cuckoo Sandbox AMP Threat Grid Globebox ANY.RUN Question 27 Multiple choice question What is a feature of the ANY.RUN malware sandbox? It is an open source tool that can be used to create signatures to prevent the malware file from entering the network again. It runs on the local network and can analyze multiple malware samples. It is an online sandbox tool and can capture screenshots of interactive elements of the malware. It is a Cisco tool that can track the trajectory of malware that has entered the network and can roll back network events to obtain a copy of the downloaded malware file. Question 28 Multiple choice question An organization needs a solution that will generate alerts on malware that has made it through the network perimeter and infected internal systems. What technology would be an appropriate solution for the organization? sandbox host intrusion detection system zone-based policy firewall honeypot Question 29 Multiple choice question What are the most effective ways to defend against malware? Select two correct answers Update the operating system and other application software Implement strong passwords Implement RAID Implement network firewalls Install and update antivirus software Implement a VPN Question 30 Multiple choice question A software company uses a public cloud service for hosting software development and deployment services. The company is concerned that software code in development might leak to competitors and result in the loss of intellectual property. Which two security coding techniques can the company implement to address the concern? (Choose two.) obfuscation normalization input validation stored procedure camouflage Question 31 Multiple choice question A small company uses a public cloud service provider to host an online store. The online store uses a web application as the front end and a database as the backend. When a customer places an order in the web form, the request is then sent to the database to check the inventory, current price, and customer information thereby completing the order. The IT manager is learning that threat attackers may launch attacks by injecting malformed data into the web application. What is a security coding technique that the company can use to minimize such attacks? input validation obfuscation encryption multi-factor authentication 3 Question 33 Multiple choice question What is a benefit of a Type 1 hypervisor implementation over a Type 2 hypervisor environment? Machines running Type 1 hypervisors can also run other host-based applications simultaneously. Type 1 hypervisor Type 1 hypervisor systems are immune to hacker attacks and VM escape exploits. Type 1 hypervisors do not require a separate operating system be loaded on the host machine. Console software on the Type 1 hypervisor host system prevents or limits VM sprawl. Question 35 Multiple choice question A network technician is assigned the task of hardening a Cisco switch before placing it into the LAN. The technician configures and encrypts the user and privilege mode passwords, creates a new management VLAN, and verifies that the IOS is up-to-date. What action should the technician take to ensure that remote access to the system is secure during transmission? Configure local users and encrypt their passwords. Restrict VTY ports to only accept SSH connections. Configure port security on all Ethernet ports. Shutdown all unused Ethernet ports on the switch. Question 36 Multiple choice question A Linux administrator creates new user accounts using the useradd command. Which two files on the system contain the new user account information?  (Choose two.) /etc/users/groups /etc/users /users/account /etc/passwd /etc/shadow Question 37 Multiple choice question An e-commerce website encourages users to authenticate using their individual social media account credentials. What type of a security solution enables users to use the same credentials to login to multiple networks belonging to different enterprises? two-factor authentication federated identity management public key infrastructure Radius authorization Question 38 Multiple choice question A cloud service company provides web service to clients. The company is assessing the risk of service disruption due to hardware failure. The company decides to add another data center in a different building. Which risk management action level is the company implementing? avoidance mitigation accept transfer Question 39 Multiple choice question What is the purpose of penetration testing? It is used to passively scan OS attack platforms. It is used to audit enterprise patch management. It fixes issues found by a vulnerability scanner. It involves hacking a website, network or server with the permission of the respective organization. Question 40 Multiple choice question What security tool allows an organization to collect data about security threats from various sources, and respond to low-level events without human intervention? Nessus GFI LanGaurd SOAR SIEM Question 42 Multiple choice question When using a CVSS risk assessment tool, what must be completed first in order for a score to be calculated for the Temporal Metric Group? Base Metric Group Enviromental Metric Group CVSS calculator Redemption level Question 43 Multiple choice question The IT security team of an organization is charged with cybersecurity threat assessment and risk management. Which Cisco service would assist the task by providing information about security incident detection rule sets for the Snort.org, ClamAV, and SpamCop network security tools? Talos AIS MITRE FireEye Question 49 Multiple choice question Which of the following is the simplest exercise to use for training employees and testing an organization’s disaster recovery plan? Tabletop exercise A simulation A full operational exercise Functional test 
+
+Here are the answers:
+
+Question 1: The outer skin of the onion represents hardened internet-facing systems. - Answer: C
+
+Question 2: An asset is added to the inventory of the organization. - Answer: D
+
+Question 3: Cloud - Answer: B
+
+Question 4: IPsec tunnels - Answer: B
+
+Question 5: Administrative controls - Answer: C
+
+Question 6: Backup/restore operations, Server clustering, and Database shadowing - Answer: A, C, and D
+
+Question 7: They collect information that is available to the general public, and most of them provide free access to their database. - Answer: C and D
+
+Question 8: Issue specific policy - Answer: B
+
+Question 9: The principle of least privilege has been applied. - Answer: D
+
+Question 10: Update the existing Acceptable Use Policy immediately and get all users to sign it. - Answer: C
+
+Question 11: Network maintenance policy and identification and authentication policy - Answer: D and A
+
+Question 12: ICMP - Answer: D
+
+Question 13: 2001:db8:0:abcd::1 - Answer: A
+
+Question 14: Source and destination IP address, source and destination Layer 4 port, and IP protocol number - Answer: D, A, and C
+
+Question 15: False positive - Answer: A, False negative - Answer: B, True negative - Answer: C, True positive - Answer: D
+
+Question 16: Traffic from the LAN zone that matches HTTP, HTTPS, and DNS traffic will be allowed out, and traffic sourced from the LAN zone that does not match the specified traffic will be denied. - Answer: A and B
+
+ChatGPT Feb 13 Version. Free Research Preview. Our goal is to make AI systems more natural and safe to interact with. Your feedback will help us improve.
+
+
+Open sidebar
+
+Model summarizes conversation.
+
+￼￼
+
+Answer from Question 17 to 27 l, choose and display or write only the correct answers
+
+I'm sorry, but I cannot provide the correct answers without knowing the questions. Could you please provide more context or repeat the questions?
+
+￼￼
+
+Question 17 Multiple choice question Refer to the exhibit. What type of traffic will the policy be applied to when the router is configured with the class-map and policy-map shown? class-map type inspect match-all INTERNAL-WEB  match protocol https  match access-group 101 ! policy-map type inspect SEC-INT-WEB  class type inspect INTERNAL-WEB  inspect ! access-list 101 permit tcp 192.168.10.0 0.0.0.255 host 192.168.100.10 only HTTPS traffic sourced from the internal LAN IP address range destined for the secure server all traffic from the internal LAN IP address range to the secure server using any TCP protocol only HTTPS traffic sourced from any internal or external source address destined for the secure server all traffic that is using either the HTTP protocol or is sourced from the internal LAN IP address range Question 18 Multiple choice question Which type ogy meets the needs of the user? RAID cloud DAS NAS Question 19 Multiple choice question Which of the following are commonly used port scanning applications? Select two correct answers Zenmap Port number Sequence number Nmap Question 20 Multiple choice question Which method of wireless authentication can take advantage of identity verification using a Radius server? Open WPA-Personal WEP WPA2-Enterprise Question 21 Multiple choice question Which of the following protocols use the Advanced Encryption Standard (AES)? Select two correct answers WPA TKIP WEP WPA2 EAP Question 22 Multiple choice question Because of a pandemic, a company decides to let employees work from home. What security technology should be implemented to ensure that data communications between the employees and the company's network remain confidential? MD5 SHA-1 AES SHA-3 Incomplete Question 23 Question 23 Multiple choice question What type of cipher encrypts plaintext one byte or one bit at a time? enigma elliptical hash stream block Question 24 Multiple choice question What is used by PKI entities to verify the validity of a digital certificate? SSL X.509 S/MIME CRL Question 25 Multiple choice question What are the two important components of a public key infrastructure (PKI) used in network security? (Choose two.) certificate authority symmetric encryption algorithms intrusion prevention system digital certificates pre-shared key generation Question 26 Multiple choice question A cyberanalyst is looking for an open source malware analysis tool that can run locally on the network. Which tool would meet the needs of the cyberanalyst? Cuckoo Sandbox AMP Threat Grid Globebox ANY.RUN Question 27 Multiple choice question What is a feature of the ANY.RUN malware sandbox? It is an open source tool that can be used to create signatures to prevent the malware file from entering the network again. It runs on the local network and can analyze multiple malware samples. It is an online sandbox tool and can capture screenshots of interactive elements of the malware. It is a Cisco tool that can track the trajectory of malware that has entered the network and can roll back network events to obtain a copy of the downloaded malware file. 
+
+Question 17: only HTTPS traffic sourced from the internal LAN IP address range destined for the secure server
+
+Question 18: cloud
+
+Question 19: Zenmap and Nmap
+
+Question 20: WPA2-Enterprise
+
+Question 21: WPA2 and EAP
+
+Question 22: AES
+
+Question 23: stream
+
+Question 24: CRL
+
+Question 25: certificate authority and digital certificates
+
+Question 26: Cuckoo Sandbox
+
+Question 27: It is an online sandbox tool and can capture screenshots of interactive elements of the malware.
+
+ChatGPT Feb 13 Version. Free Research Preview. Our goal is to make AI systems more natural and safe to interact with. Your feedback will help us improve.
+
+
+Open sidebar
+Model assists user.
+
+
+habuabdurrahman19@gmail.com
+Answer from Question 28 to 37 and  choose and display or write only the correct answers
+
+I'm sorry, but I cannot provide the correct answers without knowing the specific questions you are referring to. Please provide me with the questions and I will do my best to provide you with the correct answers.
+
+
+
+
+habuabdurrahman19@gmail.com
+Question 28
+
+Multiple choice question
+
+An organization needs a solution that will generate alerts on malware that has made it through the network perimeter and infected internal systems. What technology would be an appropriate solution for the organization?
+
+sandbox
+
+host intrusion detection system
+
+zone-based policy firewall
+
+honeypot
+
+
+
+Question 29
+
+Multiple choice question
+
+What are the most effective ways to defend against malware?
+
+Select two correct answers
+
+Update the operating system and other application software
+
+Implement strong passwords
+
+Implement RAID
+
+Implement network firewalls
+
+Install and update antivirus software
+
+Implement a VPN
+
+
+
+Question 30
+
+Multiple choice question
+
+A software company uses a public cloud service for hosting software development and deployment services. The company is concerned that software code in development might leak to competitors and result in the loss of intellectual property. Which two security coding techniques can the company implement to address the concern? (Choose two.)
+
+obfuscation
+
+normalization
+
+input validation
+
+stored procedure
+
+camouflage
+
+Question 31
+Multiple choice question
+A small company uses a public cloud service provider to host an online store. The online store uses a web application as the front end and a database as the backend. When a customer places an order in the web form, the request is then sent to the database to check the inventory, current price, and customer information thereby completing the order. The IT manager is learning that threat attackers may launch attacks by injecting malformed data into the web application. What is a security coding technique that the company can use to minimize such attacks?
+
+
+input validation
+obfuscation
+
+encryption
+
+multi-factor authentication
+
+
+3
+
+Question 33
+
+Multiple choice question
+
+What is a benefit of a Type 1 hypervisor implementation over a Type 2 hypervisor environment?
+
+Machines running Type 1 hypervisors can also run other host-based applications simultaneously.
+
+Type 1 hypervisor
+
+Type 1 hypervisor systems are immune to hacker attacks and VM escape exploits.
+
+Type 1 hypervisors do not require a separate operating system be loaded on the host machine.
+
+Console software on the Type 1 hypervisor host system prevents or limits VM sprawl.
+
+
+
+Question 35
+
+Multiple choice question
+
+A network technician is assigned the task of hardening a Cisco switch before placing it into the LAN. The technician configures and encrypts the user and privilege mode passwords, creates a new management VLAN, and verifies that the IOS is up-to-date. What action should the technician take to ensure that remote access to the system is secure during transmission?
+
+Configure local users and encrypt their passwords.
+
+Restrict VTY ports to only accept SSH connections.
+
+Configure port security on all Ethernet ports.
+
+Shutdown all unused Ethernet ports on the switch.
+Question 36
+
+Multiple choice question
+
+A Linux administrator creates new user accounts using the useradd command. Which two files on the system contain the new user account information?  (Choose two.)
+
+/etc/users/groups
+
+/etc/users
+
+/users/account
+
+/etc/passwd
+
+/etc/shadow
+
+Question 37
+
+Multiple choice question
+
+An e-commerce website encourages users to authenticate using their individual social media account credentials. What type of a security solution enables users to use the same credentials to login to multiple networks belonging to different enterprises?
+
+two-factor authentication
+
+federated identity management
+
+public key infrastructure
+
+Radius authorization
+
+Question 28: host intrusion detection system
+
+Question 29: Update the operating system and other application software, Install and update antivirus software
+
+Question 30: obfuscation, camouflage
+
+Question 31: input validation
+
+Question 33: Type 1 hypervisors do not require a separate operating system be loaded on the host machine.
+
+Question 35: Restrict VTY ports to only accept SSH connections.
+
+Question 36: /etc/passwd, /etc/shadow
+
+Question 37: federated identity management
+
+
+
+
+
+
+ChatGPT Feb 13 Version. Free Research Preview. Our goal is to make AI systems more natural and safe to interact with. Your feedback will help us improve.
+
+Open sidebar
+
+Translation Requested.
+
+￼￼
+
+Answer from Question 38 to 49 and choose and display or write only the correct answers
+
+I apologize, but I cannot display or provide answers to questions 38-49 as I do not have any information about those questions. Could you please provide me with the questions so that I can assist you better?
+
+￼￼
+
+Question 39 Multiple choice question What is the purpose of penetration testing? It is used to passively scan OS attack platforms. It is used to audit enterprise patch management. It fixes issues found by a vulnerability scanner. It involves hacking a website, network or server with the permission of the respective organization. Question 40 Multiple choice question What security tool allows an organization to collect data about security threats from various sources, and respond to low-level events without human intervention? Nessus GFI LanGaurd SOAR SIEM Question 42 Multiple choice question When using a CVSS risk assessment tool, what must be completed first in order for a score to be calculated for the Temporal Metric Group? Base Metric Group Enviromental Metric Group CVSS calculator Redemption level Question 43 Multiple choice question The IT security team of an organization is charged with cybersecurity threat assessment and risk management. Which Cisco service would assist the task by providing information about security incident detection rule sets for the Snort.org, ClamAV, and SpamCop network security tools? Talos AIS MITRE FireEye Question 49 Multiple choice question Which of the following is the simplest exercise to use for training employees and testing an organization’s disaster recovery plan? Tabletop exercise A simulation A full operational exercise Functional test 
+
+Answer to Question 39: D. It involves hacking a website, network or server with the permission of the respective organization.
+
+Answer to Question 40: C. SOAR
+
+Answer to Question 42: A. Base Metric Group
+
+Answer to Question 43: A. Talos
+
+Answer to Question 49: A. Tabletop exercise
+
+ChatGPT Feb 13 Version. Free Research Preview. Our goal is to make AI systems more natural and safe to interact with. Your feedback will help us improve.
+
+

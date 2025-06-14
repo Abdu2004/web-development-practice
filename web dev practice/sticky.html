@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Sticky Header Example</title>
+</head>
+<body>
+  <header class="sticky-header">
+    <h1>ANIMEWONDEROUS</h1>
+  </header>
+  <!-- Rest of your website content goes here -->
+  <div class="content">
+    <p>Your website content goes here.</p>
+  </div>
+  <script src="script.js"></script>
+  <div class="con">
+ <button><a href="./translogin.html">login</a></button>
+  <br>or</br>
+<button>  <a href ="">Signup</a></button>
+  </div>
+</body>
+</htm>
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+  var header = document.querySelector('.sticky-header');
+  var content = document.querySelector('.content');
+  var headerHeight = header.clientHeight;
+
+  window.addEventListener('scroll', function() {
+    if (window.scrollY > headerHeight) {
+      header.classList.add('sticky');
+      content.style.marginTop = headerHeight + 'px';
+    } else {
+      header.classList.remove('sticky');
+      content.style.marginTop = '0';
+    }
+  });
+});
+
+
+</script>
+<style>
+    html{
+  background: url("./img/peakpx (3).jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 600px;
+ 
+ }
+    body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.sticky-header {
+  background-color: #ff9315;
+  padding: 15px;
+  color: #fff;
+  text-align: center;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 1000;
+}
+
+.content {
+  margin-top: 80px; /* Adjust this value to match the header height */
+}
+.con{
+    text-align: center;
+    position: center;
+    height:50px;
+}
+button{
+  margin: 25px 0 0 0;
+  width: 100%;
+  height: 50px;
+  color: rgb(238, 226, 226);
+  font-size: 18px;
+  font-weight: 600;
+  border: 2px solid rgba(255, 255, 255, 0.438);
+  border-radius: 8px;
+  background: rgba(105, 105, 105, 0);
+ margin-top: 40px;
+  outline: none;
+  cursor: pointer;
+  border-radius: 8px;
+  
+ 
+}
+
+
+</style>

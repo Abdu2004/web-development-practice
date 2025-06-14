@@ -1,0 +1,56 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>To-Do List</title>
+  
+ 
+</head>
+<body>
+    
+  <h1>To-Do List</h1>
+  <input id="task" ="text" ;placeholder="Add task">
+  <button id="add">Add</button>
+  <ul id="list"></ul>
+
+</body>
+</html>
+<style>
+body {
+  font-family: Arial, sans-serif;
+  background-color:#ffffea;
+}
+
+#list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+#list li {
+  padding: 10px;
+  border-bottom: 1px solid #bfbfffe7;
+}
+
+#list li:hover {
+  background-color: #eaffbfe7;
+}
+</style>
+
+<script>
+
+const taskInput = document.getElementById('task');
+const addButton = document.getElementById('add');
+const list = document.getElementById('list');
+
+addButton.addEventListener('click', () => {
+  const task = taskInput.value;
+  if (task !== '') {
+    const li = document.createElement('li');
+    li.textContent = task;
+    list.appendChild(li);
+    taskInput.value = '';
+  }
+});
+</script>
+
